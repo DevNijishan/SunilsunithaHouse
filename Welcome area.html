@@ -1,75 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome area</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <style>
-        img{
-            height: 500px;
-        }
-        h1{
-            color: rgb(255, 131, 131);
-            font-family: cursive;
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Welcome Area | Sunil & Sunitha</title>
 
-        }
-        video{
-            height: 500px;
-        }
-    </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  />
 
+  <style>
+    :root { --brand-dark: #15171a; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans"; background-color: #f8f9fa; color: #212529; line-height: 1.6; }
+    .navbar { box-shadow: 0 2px 12px rgba(0,0,0,.06); }
+    .sub-hero { background: linear-gradient(180deg, #0d6efd 0%, #3f8bfd 100%); color: #fff; padding: 3.5rem 0; }
+    .gallery .card { border: 0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,.05); height: 100%; }
+    .gallery .card-img-top { height: 260px; object-fit: cover; }
+    .gallery .card-title { font-weight: 600; font-size: 1rem; margin: 0; }
+    footer { background: var(--brand-dark); color: #adb5bd; }
+    footer a { color: #dee2e6; text-decoration: none; }
+    footer a:hover { color: #fff; text-decoration: underline; }
+  </style>
 </head>
+
 <body>
-    <img src="welcomefirstdoor.jpg" alt="">
-    <h1>Outside</h1><br><br><br><br>
-    <img src="welcome6.jpg" alt="">
-    <img src="welcome17.jpg" alt="">
-    <h1>Open door view</h1><br><br><br><br>
-    <img src="welcome.jpg" alt="">
-    <h1>Sofa set</h1><br><br><br><br>
-    <img src="welcome3.jpg" alt="">
-    <h1>Show light 1</h1><br><br><br><br>
-    <img src="welcome4.jpg" alt="">
-    <h1>Top view</h1><br><br><br><br>
-    <img src="welcome5.jpg" alt="">
-    <img src="welcome7.jpg" alt="">
-    <img src="welcome11.jpg" alt="">
-    <h1>Left side view</h1><br><br><br><br>
-    <img src="Jesus photo.jpg" alt="">
-    <h1>Jesus photo</h1><br><br><br><br>
-    <img src="My fathers birth house photo welcome area.jpg" alt="">
-    <h1>My fathers birth house photo</h1>
-    <img src="welcome8.jpg" alt="">
-    <h1>Tv unit</h1><br><br><br><br>
-    <img src="welcome9.jpg" alt="">
-    <img src="welcome16.jpg" alt="">
-    <h1>1st corner</h1><br><br><br><br>
-    <img src="Welcome1.jpg" alt="">
-    <h1>2nd corner</h1><br><br><br><br>
-    <img src="welcome10.jpg" alt="">
-    <h1>Teafa</h1><br><br><br><br>
-    <img src="welcome12.jpg" alt="">
-    <h1>Floating shelf</h1><br><br><br><br>
-    <img src="welcome13.jpg" alt="">
-    <h1>Wall niches 1</h1><br><br><br><br>
-    <img src="welcome24.jpg" alt="">
-    <h1>Wall niches 2</h1><br><br><br><br>
-    <img src="welcome14.jpg" alt="">
-    <img src="welcome20.jpg" alt="">
-    <img src="Wall niches 1 welcome area.jpg" alt="">
-    <img src="wall nitches 2 welcome area.jpg" alt="">
-    <img src="wall nitches 3 welcome area.jpg" alt="">
-    <h1>Wall niches closer view</h1><br><br><br><br>
-    <img src="welcome15.jpg" alt="">
-    <h1>Oposite side view</h1>
-    <img src="welcome19.jpg" alt="">
-    <h1>Brass urli</h1><br><br><br><br>
-    <img src="welcome22.jpg" alt="">
-    <h1>Family photo</h1><br><br><br><br>
-    <img src="welcome23.jpg" alt="">
-    <h1>Celing</h1><br><br><br><br>
-    <video src="welcome area video.mp4" controls></video>
-    <h1>Video</h1>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand fw-semibold" href="index.html">Sunil &amp; Sunitha</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMain">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#floors">Floors</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="sub-hero">
+    <div class="container text-center">
+      <h1 class="display-6 mb-2">Welcome Area</h1>
+      <p class="mb-0">Entry lounge, decor, and lighting details.</p>
+    </div>
+  </header>
+
+  <main class="py-5">
+    <div class="container">
+      <div class="row g-4 gallery">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcomefirstdoor.jpg" class="card-img-top" alt="Outside view of the welcome door" />
+            <div class="card-body"><h5 class="card-title">Outside</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome6.jpg" class="card-img-top" alt="Open door view" />
+            <div class="card-body"><h5 class="card-title">Open door view</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome17.jpg" class="card-img-top" alt="Open door view (alt)" />
+            <div class="card-body"><h5 class="card-title">Open door view</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome.jpg" class="card-img-top" alt="Sofa set" />
+            <div class="card-body"><h5 class="card-title">Sofa set</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome3.jpg" class="card-img-top" alt="Show light" />
+            <div class="card-body"><h5 class="card-title">Show light</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome4.jpg" class="card-img-top" alt="Top view" />
+            <div class="card-body"><h5 class="card-title">Top view</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome5.jpg" class="card-img-top" alt="Left side view" />
+            <div class="card-body"><h5 class="card-title">Left side view</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome7.jpg" class="card-img-top" alt="Left side view (alt)" />
+            <div class="card-body"><h5 class="card-title">Left side view</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome11.jpg" class="card-img-top" alt="Left side view (detail)" />
+            <div class="card-body"><h5 class="card-title">Left side view</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="Jesus photo.jpg" class="card-img-top" alt="Jesus photo" />
+            <div class="card-body"><h5 class="card-title">Jesus photo</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="My fathers birth house photo welcome area.jpg" class="card-img-top" alt="Family heritage photo" />
+            <div class="card-body"><h5 class="card-title">My father's birth house photo</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome8.jpg" class="card-img-top" alt="TV unit" />
+            <div class="card-body"><h5 class="card-title">TV unit</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome9.jpg" class="card-img-top" alt="First corner" />
+            <div class="card-body"><h5 class="card-title">First corner</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome16.jpg" class="card-img-top" alt="First corner (alt)" />
+            <div class="card-body"><h5 class="card-title">First corner</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="Welcome1.jpg" class="card-img-top" alt="Second corner" />
+            <div class="card-body"><h5 class="card-title">Second corner</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome10.jpg" class="card-img-top" alt="Tea table" />
+            <div class="card-body"><h5 class="card-title">Tea table</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome12.jpg" class="card-img-top" alt="Floating shelf" />
+            <div class="card-body"><h5 class="card-title">Floating shelf</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome13.jpg" class="card-img-top" alt="Wall niches 1" />
+            <div class="card-body"><h5 class="card-title">Wall niches 1</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome24.jpg" class="card-img-top" alt="Wall niches 2" />
+            <div class="card-body"><h5 class="card-title">Wall niches 2</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome14.jpg" class="card-img-top" alt="Wall niches closer view" />
+            <div class="card-body"><h5 class="card-title">Wall niches closer view</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome20.jpg" class="card-img-top" alt="Wall niches closer view" />
+            <div class="card-body"><h5 class="card-title">Wall niches closer view</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="Wall niches 1 welcome area.jpg" class="card-img-top" alt="Wall niches closer view (detail 1)" />
+            <div class="card-body"><h5 class="card-title">Wall niches closer view</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="wall nitches 2 welcome area.jpg" class="card-img-top" alt="Wall niches closer view (detail 2)" />
+            <div class="card-body"><h5 class="card-title">Wall niches closer view</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="wall nitches 3 welcome area.jpg" class="card-img-top" alt="Wall niches closer view (detail 3)" />
+            <div class="card-body"><h5 class="card-title">Wall niches closer view</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome15.jpg" class="card-img-top" alt="Opposite side view" />
+            <div class="card-body"><h5 class="card-title">Opposite side view</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome19.jpg" class="card-img-top" alt="Brass urli" />
+            <div class="card-body"><h5 class="card-title">Brass urli</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome22.jpg" class="card-img-top" alt="Family photo" />
+            <div class="card-body"><h5 class="card-title">Family photo</h5></div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="welcome23.jpg" class="card-img-top" alt="Ceiling" />
+            <div class="card-body"><h5 class="card-title">Ceiling</h5></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-5">
+        <div class="ratio ratio-16x9 rounded-3 overflow-hidden shadow-sm">
+          <video src="welcome area video.mp4" controls></video>
+        </div>
+        <p class="text-center text-muted mt-2 mb-0">Video: Welcome area</p>
+      </div>
+
+      <div class="text-center mt-5">
+        <a href="Ground floor.html" class="btn btn-outline-secondary">Back to Ground Floor</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="py-4 mt-auto">
+    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-2">
+      <div>© <span id="year"></span> Sunil &amp; Sunitha. All rights reserved.</div>
+      <div>Crafted by <a href="Bynijishan.html">Nijishan</a></div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
